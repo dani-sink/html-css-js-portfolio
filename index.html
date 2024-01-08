@@ -27,7 +27,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="menu-links">
+            <div class="menu-links" >
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -35,6 +35,36 @@
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/My_Profile_Pic(1).png" alt="Jean-Daniel Sinkpon profile picture" >
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I am</p>
+            <h1 class="title">Jean-Daniel Sinkpon</h1>
+            <p class="section__text__p2">Entry-level Software Engineer</p>
+            <div clas="button-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./Assets/Jean-Daniel_Resume-3.pdf')">
+                Download CV
+                </button>
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/jeandanielsinkpon/'">
+                <img src="./Assets/github.png" alt="My Github Profile"
+                class="icon" 
+                onclick="location.href='https://github.com/dani-sink'">
+            </div>
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>
